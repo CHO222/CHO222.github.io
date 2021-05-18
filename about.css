@@ -1,0 +1,60 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+a{text-decoration:none}
+
+.wrap{min-width:900px}
+
+.aside{position:fixed;width:300px;height:100vh;background:#000000;color:#fff}
+.container{padding-left:300px}
+
+.aside a{color:#fff}
+.aside h1{text-align:center;padding:50px 0}
+.aside h1 a{font-size:100px}
+.aside ul{padding:60px 0 0 50px}
+.aside ul li{font-size:1.2em}
+.aside ul li a{display:block;padding:15px 0}
+.aside ul li a:hover{color:orange}
+
+.contents .inner_box{padding:90px 40px}
+
+.cont1{height:100vh;
+    background-image:url(img/qwer.jpg);
+    background-size:cover;
+}
+.cont1{position:relative;color:#fff;z-index:1}
+.cont1::after{content:'';position:absolute;top:0;right:0;bottom:0;left:0;background:#000;opacity:.1;z-index:-1}
+.cont1 .inner_box{position:absolute;top:0%;left:70%;}
+.cont1 .photo{height:200px;
+    text-align:right;
+    font-size:0;line-height:0;
+}
+.cont1 .inner_box .p1{padding:10px 0;font-size:40px}
+.cont1 .inner_box .p1 strong{color:orange}
+.cont1 .inner_box .p2{font-size:30px}
+
+.cont2 h2{border-left:5px solid orange;padding-left:25px}
+.cont2 h2 strong,
+.cont2 h2 span{display:block}
+.cont2 h2 strong{font-size:50px;padding-bottom:10px;font-weight:800}
+
+.cont2 .amw{overflow:hidden;padding:50px 0}
+.cont2 .photo{float:left;width:35%}
+.cont2 .info{float:right;width:60%}
+.cont2 .photo img{width:100%;position:relative;z-index:100}
+.cont2 .photo .pimg{position:relative;margin:0 30px 30px 0}
+.cont2 .photo .pimg::after{content:'';position:absolute;border:8px solid #000;top:25px;right:-25px;bottom:-25px;left:25px}
+
+
+.cont3{background:#FFFFFF}
+.cont3 h2{border-color:#fff}
+.cont3 .list{overflow:hidden;padding:50px 0}
+.cont3 .list .item{float:left;width:25%}
+.cont3 .list .item div{padding:5px}
+.cont3 .list .item img{width:100%}
+.cont3 .list .item a{position:relative;display:block;color:#fff}
+.cont3 .list .item a span{display:none;position:absolute;padding:10px 5%;background:rgba(0,0,0,.7);z-index:100;left:0;right:0;bottom:0}
+.cont3 .list .item a:hover span{display:block}
+
+.cont3 h2{border-left:5px solid orange;padding-left:25px}
+.cont3 h2 strong,
+.cont3 h2 span{display:block}
+.cont3 h2 strong{font-size:50px;padding-bottom:10px;font-weight:800}
